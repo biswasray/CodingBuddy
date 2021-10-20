@@ -1,0 +1,28 @@
+.dataStructures {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #0cc;
+    color: #fff;
+}
+.panel {
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: #eeeeee;
+    color: #222222;
+}
+#showDS {
+    margin: 70px;
+    border: 1px solid #0cc;
+    background-color: #fff;
+    color: #000;
+    width: 700px;
+    height: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+}
+.arrayP {
+    padding: 20px;
+}
