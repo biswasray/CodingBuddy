@@ -1,22 +1,36 @@
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Coding Buddy</title>
         <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
         <div class="main">
             <div class="dataStructures">
-                <button>Array</button>
+                <button class="catagory" onclick="showArr(0)">Array</button>
+                <button class="catagory" onclick="showArr(1)">Linked list</button>
+                <button class="catagory">String</button>
+                <button class="catagory">Queue</button>
+                <button class="catagory">Stack</button>
+                <button class="catagory">2D Array</button>
+                <button class="catagory">Tree</button>
+                <button class="catagory">Graph</button>
             </div>
-            <div class="panel">
-                <div class="arrayP">
-                    Enter size of Array : <input type="number" id="arrSize" onchange="createArr()"/><br/>
-                    Enter elements of Array :<br/><textarea id="arrElements" onchange="createArr1()"></textarea>
-                    <div id="showDS">
+            <div class="panels">
+                <div class="panel">
+                    Enter size of Array : <input type="number" id="arrSize" size="16"/><br/>
+                    Enter elements of Array :<br/><textarea id="arrElements" cols="100" rows="5"></textarea>
+                    <div class="showDS">
+                    </div>
+                </div>
+                <div class="panel">
+                    Enter elements to List :<br/><textarea id="listElements" cols="100" rows="5"></textarea>
+                    <div class="showDS">
                     </div>
                 </div>
             </div>
         </div>
         <script src="js/main.js"></script>
+        <script src="js/arrayy.js"></script>
     </body>
 </html>
